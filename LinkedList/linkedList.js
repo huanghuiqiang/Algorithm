@@ -38,6 +38,18 @@ class SingleLinkedList {
     this.size--;
     return this;
   }
+
+  getAtIndex(index) {
+    if (this.size === 0 || index >= this.size) return undefined;
+
+    let current = this.tail;
+
+    for (let i = 0, l = index; i < l - 1; i++) {
+      current = current.next;
+    }
+
+    return current;
+  }
 }
 
 let link = new SingleLinkedList();
@@ -48,6 +60,7 @@ link.insertAtTail(3);
 link.insertAtTail(4);
 link.insertAtTail(5);
 
-link.deleteAtIndex(5)
+// link.deleteAtIndex(5)
 
-console.log(link);
+
+console.log(link.getAtIndex(2));
