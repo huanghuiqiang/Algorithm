@@ -86,3 +86,8 @@ newTree.insert(1)
 // console.log(newTree);
 
 console.log(newTree.find(4));
+
+
+
+
+
