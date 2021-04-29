@@ -5,29 +5,49 @@ class Node {
   }
 }
 
-class LinkedList {
+class SingleLinkedList {
   constructor() {
-    this.root = null;
+    this.tail = null;
+    this.size = 0;
   }
 
-  insert(value) {
+  insertAtTail(value) {
     let newNode = new Node(value);
-    if (this.root === null) {
-      this.root = newNode;
+    if (this.tail === null) {
+      this.tail = newNode;
+      this.size++;
       return this;
     }
 
-    let current = this.root;
+    let current = this.tail;
     newNode.next = current;
-    this.root = newNode;
+    this.tail = newNode;
+    this.size++;
+    return this;
+  }
+
+  deleteAtIndex(index) {
+    if (this.size === 0 || index >= this.size) return undefined;
+
+    let current = this.tail;
+    for (let i = 0, l = index; i < l - 1; i++) {
+      current = current.next;
+    }
+
+    current.next = current.next.next ? current.next.next : null;
+    this.size--;
     return this;
   }
 }
 
-let link = new LinkedList();
+let link = new SingleLinkedList();
 
-link.insert(1);
-link.insert(2);
-link.insert(3);
+link.insertAtTail(1);
+link.insertAtTail(2);
+link.insertAtTail(3);
+link.insertAtTail(4);
+link.insertAtTail(5);
+
+link.deleteAtIndex(5)
 
 console.log(link);
