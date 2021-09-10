@@ -1,6 +1,24 @@
-console.log({} + []); // 0
+// ToPrimitive
+// valueof 能不能找到值
+// tostring 能不能得到原始值
+// 装箱：把值转换成对应的引用类型
+// 拆箱：把引用类型转成值类型
 
-{} + []; // 0
+console.log({} + []);
+
+let obj = {
+    valueOf: function () {
+        return {}
+    },
+    toString: function() {
+        return 'xxxx'
+    }
+}
+console.log(1 + obj);
+
+
+{} + []; // 0 => +[] 块级作用域
+console.log({} + []);
 [] + {}; // "[object Object]"
 {} + {}; // "[object Object][object Object]"
 
