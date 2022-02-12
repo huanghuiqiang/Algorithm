@@ -8,17 +8,46 @@
 </head>
 <body>
   <script>
- function moveZeroes(nums) {
-    let s = 0, len = nums.length;
-    for(let f = 0; f < len; f++) {
-        if (nums[f] !== 0) {
-            nums[s] = nums[f];
-            nums[f] = 0;
-            s++;
+function backspaceCompare(s, t) {
+    let sArr = [...s], tArr = [...t], sPoint = sArr.length - 1, tPoint = tArr.length - 1;
+    let sCount = 0, tCount = 0;
+    while(sPoint >= 0 || tPoint >= 0) {
+
+        while(sPoint >= 0) {
+            if (sArr[sPoint] === '#') {
+                sCount++;
+                sPoint--;
+            } else if (sCount > 0){
+                sCount--;
+                sPoint--;
+            } else {
+                break;
+            }
         }
+
+        while(tPoint >= 0) {
+            if (tArr[tPoint] === '#') {
+                tCount++;
+                tPoint--;
+            } else if (tCount > 0){
+                tCount--;
+                tPoint--;
+            } else {
+                break;
+            }
+        }
+
+        if (sArr[sPoint] !== tArr[tPoint]) {
+            return false;
+        }
+
+        sPoint--;
+        tPoint--;
     }
+    return true;
 };
-    console.log(moveZeroes([1]))
+    console.log(backspaceCompare("ab##",
+"c#d#"))
 </script>
 </body>
 </html>
