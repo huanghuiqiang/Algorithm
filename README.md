@@ -18,6 +18,9 @@
 
 |0034|在排序数组中查找元素的第一个和最后一个位置|Middle|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0034M-Find-First-and-Last-Position-of-Element-in-Sorted-Array.ts)|
 
+|0367|有效的完全平方数|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0367M-ValidPerfectSquare.ts)|
+
+
 ### 链表
 
 ### 哈希表
