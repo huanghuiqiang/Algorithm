@@ -16,6 +16,8 @@
 
 |0069|x 的平方根|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0069E-Sqrt(x).ts)|
 
+|0034|在排序数组中查找元素的第一个和最后一个位置|Middle|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0034M-Find-First-and-Last-Position-of-Element-in-Sorted-Array.ts)|
+
 ### 链表
 
 ### 哈希表
