@@ -14,6 +14,8 @@
 
 |0035|搜索插入位置|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0035E-SearchInsertPosition.ts)|
 
+|0069|x 的平方根|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0069E-Sqrt(x).ts)|
+
 ### 链表
 
 ### 哈希表
