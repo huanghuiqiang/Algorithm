@@ -9,7 +9,7 @@
 |:-:|----|----|:-:|
 
 ### 树组
-|0704|二分查找|Easy|<a href="JS/0001E-二分查找.html">🎉</a>|
+|0704|二分查找|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/tree/main/JS/0704E-二分查找.ts)|
 
 ### 链表
 
