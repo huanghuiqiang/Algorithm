@@ -11,7 +11,8 @@
 ### 树组
 
 |0704|二分查找|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0704E-BinarySearch.ts)|
-|0704|二分查找|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0035E-SearchInsertPosition.ts)|
+
+|0035|搜索插入位置|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0035E-SearchInsertPosition.ts)|
 
 ### 链表
 
