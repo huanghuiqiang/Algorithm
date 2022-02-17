@@ -10,7 +10,8 @@
 
 ### 树组
 
-|0704|二分查找|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0704E-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.ts)|
+|0704|二分查找|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0704E-BinarySearch.ts)|
+|0704|二分查找|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0035E-SearchInsertPosition.ts)|
 
 ### 链表
 
