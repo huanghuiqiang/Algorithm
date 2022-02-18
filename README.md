@@ -24,13 +24,11 @@
 
 |0026|删除有序数组中的重复项|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0026-removeDuplicates.ts)|
 
-|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+|0283|移动零|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0283-moveZeroes.ts)|
 
-|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+|0844|比较含退格的字符串|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0844-backspaceCompare.ts)|
 
-|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
-
-|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+|0977|有序数组的平方|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0977-sortedSquares.ts)|
 
 
 

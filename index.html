@@ -8,36 +8,17 @@
 </head>
 <body>
   <script>
-    function searchInsert(nums, target) {
-      let l = 0, r = nums.length - 1;
-      let rightBorder = -2, leftBorder = -2;
-      // 寻找右边界
-      while(l <= r) {
-          let mid = l + ((r - l) >> 1);
-          if (nums[mid] > target) {
-            r = mid - 1;
-          } else {
-            l = mid + 1;
-            rightBorder = l;
-          }
-      }
-
-      // 寻找左边界
-      l = 0, r = nums.length - 1;
-      while(l <= r) {
-          let mid = l + ((r - l) >> 1);
-          if (nums[mid] >= target) {
-            r = mid - 1;
-            leftBorder = r;
-          } else {
-            l = mid + 1;
-          }
-      }
-      if (leftBorder === -2 || rightBorder === -2) {return [-1, -1]};
-      if((rightBorder - leftBorder) > 1) {return [leftBorder + 1, rightBorder - 1]};
-      return [-1, -1];
-    };
-    console.log(searchInsert([2], 2))
+ function moveZeroes(nums) {
+    let s = 0, len = nums.length;
+    for(let f = 0; f < len; f++) {
+        if (nums[f] !== 0) {
+            nums[s] = nums[f];
+            nums[f] = 0;
+            s++;
+        }
+    }
+};
+    console.log(moveZeroes([1]))
 </script>
 </body>
 </html>
