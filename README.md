@@ -10,16 +10,17 @@
 
 ### 树组
 
-|0704|二分查找|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0704E-BinarySearch.ts)|
+|0704|二分查找|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0704E-BinarySearch.ts)|
 
-|0035|搜索插入位置|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0035E-SearchInsertPosition.ts)|
+|0035|搜索插入位置|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0035E-SearchInsertPosition.ts)|
 
-|0069|x 的平方根|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0069E-Sqrt(x).ts)|
+|0069|x 的平方根|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0069E-Sqrt(x).ts)|
 
-|0034|在排序数组中查找元素的第一个和最后一个位置|Middle|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0034M-Find-First-and-Last-Position-of-Element-in-Sorted-Array.ts)|
+|0034|在排序数组中查找元素的第一个和最后一个位置|Middle|[🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0034M-Find-First-and-Last-Position-of-Element-in-Sorted-Array.ts)|
 
-|0367|有效的完全平方数|Easy|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0367M-ValidPerfectSquare.ts)|
+|0367|有效的完全平方数|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0367M-ValidPerfectSquare.ts)|
 
+|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
 
 ### 链表
 
