@@ -8,46 +8,26 @@
 </head>
 <body>
   <script>
-function backspaceCompare(s, t) {
-    let sArr = [...s], tArr = [...t], sPoint = sArr.length - 1, tPoint = tArr.length - 1;
-    let sCount = 0, tCount = 0;
-    while(sPoint >= 0 || tPoint >= 0) {
+      function minSubArrayLen(target, nums) {
+        let result = Number.MAX_SAFE_INTEGER; // 字符串长度
+        let sum = 0; // 窗口总和
+        let j = 0; // 起始位置
+        let subLength = 0;
+        let len = nums.length;
+        for(let i = 0; i < len; i++) {
+            sum += nums[i]; // 计算窗口的和
 
-        while(sPoint >= 0) {
-            if (sArr[sPoint] === '#') {
-                sCount++;
-                sPoint--;
-            } else if (sCount > 0){
-                sCount--;
-                sPoint--;
-            } else {
-                break;
+            while(sum >= target) {
+                subLength = (i - j + 1);
+                result = result < subLength ? result : subLength;
+                sum -= nums[j++]; // 这里体现出滑动窗口的精髓之处，不断变更i（子序列的起始位置
             }
         }
 
-        while(tPoint >= 0) {
-            if (tArr[tPoint] === '#') {
-                tCount++;
-                tPoint--;
-            } else if (tCount > 0){
-                tCount--;
-                tPoint--;
-            } else {
-                break;
-            }
-        }
-
-        if (sArr[sPoint] !== tArr[tPoint]) {
-            return false;
-        }
-
-        sPoint--;
-        tPoint--;
-    }
-    return true;
-};
-    console.log(backspaceCompare("ab##",
-"c#d#"))
+        return result === Number.MAX_SAFE_INTEGER ? 0 : subLength;
+    };
+    console.log(minSubArrayLen(15,
+[5,1,3,5,10,7,4,9,2,8]))
 </script>
 </body>
 </html>

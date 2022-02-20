@@ -30,6 +30,12 @@
 
 |0977|有序数组的平方|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0977-sortedSquares.ts)|
 
+|0907|水果成篮|Middle|[🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0209-minSubArrayLen.ts)|
+
+|0904|有序数组的平方|Middle|[🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0904-totalFruit.ts)|
+
+|0076|最小覆盖子串|hard|[🎉🎉🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0076-minWindow.ts)|
+
 
 
 ### 链表
