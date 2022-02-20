@@ -22,6 +22,18 @@
 
 |0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
 
+|0026|删除有序数组中的重复项|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0026-removeDuplicates.ts)|
+
+|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+
+|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+
+|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+
+|0027|移除元素|Easy|[🎉](https://github.com/huanghuiqiang/Algorithm/blob/main/TS/0027-removeElement.ts)|
+
+
+
 ### 链表
 
 ### 哈希表
