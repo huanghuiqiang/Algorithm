@@ -2,12 +2,12 @@
  * @Author: huanghq 
  * @Date: 2022-05-06 11:45:27 
  * @Last Modified by: huanghq
- * @Last Modified time: 2022-05-06 14:13:38
+ * @Last Modified time: 2022-05-06 15:04:44
  * 移除链表元素 203
  */
 
-// 定义单链表结构
-class ListNode {
+// 定义链表结构
+export class ListNode {
   val: number;
   next: ListNode | null;
   constructor(val?: number, next?: ListNode | null) {
