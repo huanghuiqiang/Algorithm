@@ -1,5 +1,10 @@
-// 删除链表的倒数第 N 个结点
-
+/*
+ * @Author: huanghq 
+ * @Date: 2022-05-14 19:59:58 
+ * @Last Modified by:   huanghq 
+ * @Last Modified time: 2022-05-14 19:59:58 
+ * 删除链表的倒数第 N 个结点
+ */
 export class ListNode {
     val: number;
     next: ListNode | null;
