@@ -6,7 +6,7 @@
  * 反转链表，双指针和递归两种方法
  */
 
-class ListNode {
+export class ListNode {
   val: number;
   next: ListNode | null;
   constructor(val: number, next: ListNode | null) {
