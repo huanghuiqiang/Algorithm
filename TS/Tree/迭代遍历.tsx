@@ -1,4 +1,4 @@
-class TreeNode_ {
+export class TreeNode {
   public val: number;
   public left: TreeNode | null;
   public right: TreeNode | null;
